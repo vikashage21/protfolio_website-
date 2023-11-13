@@ -108,6 +108,16 @@ app.post('/contact' ,async (req,res)=>{
     }
 })
 
+//  getting about page 
+
+app.get('/about', async(req, res)=>{
+    try{
+res.render('about')
+    }catch(e){
+        console.log(e)
+    }
+})
+
 
 // server created here ..
 
