@@ -314,3 +314,6 @@ footer p {
 .mail-seccess .success-inner .btn{
 	color:#fff;
 }
+.hide{
+  text-decoration: none;
+}
