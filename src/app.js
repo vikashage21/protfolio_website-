@@ -54,6 +54,9 @@ app.set('view engine', 'hbs')
 
 app.set('views',tempPath)
 
+mongoose.set('strictQuery', false); // Address the deprecation warning
+
+
 
 
 // creating routing here
