@@ -1,7 +1,6 @@
 require('dotenv').config()
 const express = require('express')
 
-const mongoose= require('mongoose')
 
 const app = express()
 
@@ -56,7 +55,7 @@ app.set('view engine', 'hbs')
 
 app.set('views',tempPath)
 
-mongoose.set('strictQuery', false); // Address the deprecation warning
+
 
 
 
