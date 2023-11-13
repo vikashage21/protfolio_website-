@@ -1,0 +1,11 @@
+#####
+
+
+html{
+
+    scoll-behavior:smooth;
+    
+}
+
+
+#####
